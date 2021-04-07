@@ -1,0 +1,259 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 47px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 700;
+}
+
+.footer {
+  padding: 20px 0 20px 0;
+  background-color: #F7F7F7;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.nav_btn {
+  background-color: #5528FF;
+  border-radius: 5px;
+  padding: 4px 12px;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style-type: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 14px;
+}
+
+.nav > li {
+  margin-left: 38px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #202020;
+}
+
+.logo_img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  background-image: url(../img/logo.svg);
+  margin-right: 25px;
+}
+
+.logo_text {
+  font-size: 24px;
+  color: #202020;
+}
+
+.title-main {
+  font-size: 55px;
+  color: #202020;
+  font-weight: 700;
+}
+
+.text-main {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #4F4F4F;
+  width: 760px;
+  padding: 0 0 40px 0;
+}
+
+.button {
+  background-color: #5528FF;
+  border-radius: 10px;
+  padding: 18px 57px;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+}
+
+.page {
+  padding: 86px 0 105px 0;
+  position: relative;
+}
+
+.page-top {
+  border-top: 1px solid #C2C2C2;
+}
+
+.page h2 {
+  position: absolute;
+  top: -24px;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #fff;
+  padding: 5px 15px;
+  color: #C2C2C2;
+}
+
+.services {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+  -ms-grid-columns: 50% 50%;
+      grid-template: repeat(2, 1fr)/50% 50%;
+  grid-row-gap: 14px;
+}
+
+.services-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services_img {
+  -ms-flex-preferred-size: 133px;
+      flex-basis: 133px;
+  text-align: center;
+}
+
+.services_text {
+  -ms-flex-preferred-size: calc(75% - 165px);
+      flex-basis: calc(75% - 165px);
+}
+
+.services h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 14px;
+  color: #B2B2B2;
+  line-height: 1.5;
+}
+
+.clients {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+  -ms-grid-columns: (25%)[4];
+      grid-template: repeat(2, 1fr)/repeat(4, 25%);
+  text-align: center;
+  grid-row-gap: 13px;
+  padding-top: 0;
+}
+
+.team {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+  -ms-grid-columns: (1fr)[3];
+      grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  grid-row-gap: 38px;
+  padding-top: 13px;
+}
+
+.team-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team-item h3 {
+  font-size: 28px;
+  color: #202020;
+  margin-bottom: 33px;
+}
+
+.team-item p {
+  font-size: 14px;
+  color: #B2B2B2;
+}
+
+.team-item img {
+  margin-right: 20px;
+}
+
+.team-item > div {
+  -ms-flex-preferred-size: calc(100% - 100px);
+      flex-basis: calc(100% - 100px);
+}
+
+.box-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social {
+  list-style-type: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social > li {
+  margin-left: 41px;
+}
+
+.social > li > a {
+  text-decoration: none;
+  color: #B2B2B2;
+  font-size: 24px;
+}

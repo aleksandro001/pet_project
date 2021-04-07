@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.5" height="11" viewBox="0 0 5.5 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #22222b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Starting_Pont" data-name="Starting Pont" class="cls-1" d="M1009.5,1427a5.5,5.5,0,0,1,0,11" transform="translate(-1009.5 -1427)"/>
+</svg>
